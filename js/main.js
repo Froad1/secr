@@ -293,6 +293,6 @@ isInWebAppiOS = (window.navigator.standalone === true);
 isInWebAppChrome = (window.matchMedia('(display-mode: standalone)').matches);
 
 if(isInWebAppiOS == false && isInWebAppChrome == false){
-	$('body').html('<div class="nonono">Хочешь себе такой же, то  ему: <br><a href="https://t.me/wowlap">Боженька</a><br><br><img src="https://i.imgur.com/CB2abrf.gif"></div>');
+	$('body').html('<div class="nonono">Хочешь себе такой же, то напиши ему: <br><a href="https://t.me/wowlap">Боженька</a><br><br><img src="https://i.imgur.com/CB2abrf.gif"></div>');
 	$('body').addClass('nononopage');
 }
